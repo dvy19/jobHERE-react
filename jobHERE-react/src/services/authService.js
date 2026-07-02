@@ -24,3 +24,13 @@ const authService = {
 };
 
 export default authService;
+
+
+/*
+
+services = middle  layer btw react and backend
+an object that contains methods for making API calls related to authentication.
+
+
+
+*/
