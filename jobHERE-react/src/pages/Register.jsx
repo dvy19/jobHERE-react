@@ -16,7 +16,7 @@ function Register() {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        e.preventDefault();  // do not refresh the page on form submission
 
         try {
             const response = await authService.register(formData);
